@@ -1,0 +1,128 @@
+
+/* All body*/
+body {
+  font-family: "Arial", sans-serif;
+  background-color: hsl(0, 2%, 90%);
+  margin: 4%;
+  background-image: url("/img/stadium.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Headings:*/
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #c00;
+  text-shadow: 4px 4px 8px whitesmoke;
+}
+
+/* Main module heading: index */
+#module_heading {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 4%;
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: none;
+}
+
+/* Sir Alex and Squad Heading */
+#sir-alex-heading,
+#squad-heading {
+  font-style:oblique;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: 1px 2px 1px whitesmoke;
+}
+
+/* Style for Card Text and back-to-home Text(footer)*/
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: yellow;
+}
+
+/* Container for main page */
+.container {
+  display: grid;
+  padding: 5%;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+
+/* Flex display for contents inside container */
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  text-align: center;
+  text-shadow: 1% 5% 0.1 black;
+  padding-bottom: 5%;
+  background-color: rgb(180, 45, 45);
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+/* Hover effect */
+.label:hover {
+  transform: scale(1.05);
+}
+
+/* flex display for Sir Alex page and Squad page  */
+.sir-alex-container, .squad-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 5%;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 3px 1px black;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+/* flex display by column for Squad page */
+.squad-container {
+  flex-direction: column;
+}
+
+/* styling image inside container */
+#sir-alex-img,
+#squad-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Styling image of sir-alex module */
+.sir-alex-main-img {
+  width: 30%;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+/* Styling image of squad module */
+#squad-img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.footer {
+  margin: 1%;
+}
+
+hr {
+  border: 1px solid #ddd;
+}
+
+.back-to-home {
+  text-align: center;
+}

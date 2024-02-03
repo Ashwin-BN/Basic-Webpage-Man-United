@@ -1,0 +1,43 @@
+Assignment Content
+Objective:
+---------
+Develop a more advanced web server using Express.js that serves HTML pages with images and CSS.
+
+
+Create a website with at least 2 webpages. This site can be about ANYTHING you want (Work/School friendly). You should have a index page and a second page of your choosing. You need to Link from your index page to your second page.
+
+
+
+Tasks:
+-----
+1. Environment Setup: Initialize a Node.js project with Express.js.
+
+2. Write code for a web server that handles the HTTP requests.
+
+3. Create at least two HTML pages, with proper HTML structure. One page must be your home/index
+
+4. Include at least 2 images on your web pages. Ensure these images are served correctly by your Express.js server. (NOTE: Check the CSS & Images information on how to do this) 
+
+5. CSS Styling: Add a CSS file to style your web pages. Make sure CSS is applied correctly (See note above). You can style anything you want (H1, DIV, HREF, BODY.. etc), but it MUST at least have at least 2 styles for full marks.
+
+6. Implement ROUTES for your web pages. (Remember, Your PUBLIC folder is different than your VIEW Folder! Your CSS and Images must come from the PUBLIC folder. Your HTML must come from the VIEW folder).
+
+7. Server Testing: Test your server to ensure it serves the HTML pages, images, and CSS correctly.
+
+
+Submission:
+----------
+ZIP all of your code, DO NOT include your node_modules folder. Submit via Blackboard
+
+
+
+Evaluation Criteria:
+-------------------
+Successful setup of Express.js server.
+Proper serving of HTML pages, images, and CSS.
+Effective implementation of web routing.
+Code quality, organization, and documentation.
+
+
+This assignment aims to deepen your understanding of Express.js by integrating static file serving and enhancing web page presentation with images and CSS.
+
