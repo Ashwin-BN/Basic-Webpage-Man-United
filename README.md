@@ -34,3 +34,6 @@ To run this project locally:
 │   └── 2008-squad.html
 ├── server.js
 ```
+---
+As a beginner, I seek feedback and collaboration on projects. 
+Feel free to contact me if you have any suggestions, improvements, or questions.
