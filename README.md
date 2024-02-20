@@ -8,6 +8,18 @@ This is a simple web server using Express.js that serves HTML pages with images 
 2. *Sir Alex Page:*
 3. *2008 Squad Page:*
 
+## Screenshots
+
+### Home/Index Page
+![Home Page](/screenshots/mainPage.jpeg)
+
+### Sir Alex Page
+![Sir Alex Page](/screenshots/Sir-AlexPage.jpeg)
+
+### 2008 Squad Page
+![2008 Squad Page](/screenshots/2008SquadPage.jpeg)
+
+
 ## Local Development
 
 To run this project locally:
@@ -34,6 +46,7 @@ To run this project locally:
 │   └── 2008-squad.html
 ├── server.js
 ```
+
 ---
 As a beginner, I seek feedback and collaboration on projects. 
 Feel free to contact me if you have any suggestions, improvements, or questions.
