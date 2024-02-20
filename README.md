@@ -11,7 +11,7 @@ This is a simple web server using Express.js that serves HTML pages with images 
 ## Screenshots
 
 ### Home/Index Page
-![Home Page](/screenshot/mainPage.jpeg)
+![Home Page](/screenshots/mainPage.jpeg)
 
 ### Sir Alex Page
 ![Sir Alex Page](/screenshots/Sir-AlexPage.jpeg)
